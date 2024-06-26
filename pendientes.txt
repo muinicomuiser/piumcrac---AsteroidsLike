@@ -1,0 +1,9 @@
+Tareas pendientes:
+    Modificar la clase Asteroide para elegir crear tipos distintos
+        Uno pequeño que rebote, con duración definida. (O que sea disparado por otro enemigo más grande).
+        También uno grande que dispare asteroides pequeños y que sea más duro de eliminar.
+        Otro que se mueva dando rodeos
+
+    ¿Cambiar el tipo de misil según la nave?
+
+    Obviamente agregar todos los textos, las referencias y lo que se pueda compartir.

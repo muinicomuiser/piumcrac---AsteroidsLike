@@ -1,0 +1,12 @@
+Colores:
+    Modo Oscuro:
+        blanco:     "white"
+        celeste:    `hsla(200, 100%, 60%, 1)`
+        amarillo:   `hsla(45, 100%, 60%, 1)` - `hsla(45, 100%, 60%, ${this.propulsor})`
+        burdeo:     `hsla(0, 100%, 80%, 1)`
+        negro:      "black"
+
+    Modo Claro:
+        blanco:     `hsla(51, 95%, 93%, 1)` 
+        negro:      `hsla(40, 19%, 13%, 1)`
+

@@ -34,13 +34,15 @@ background color: black
     margin: 0;
     box-sizing: border-box;
 }
+
 body {
     font-family: monospace;
-    background-color:  black; 
+    background-color: black;
     /*background-color: hsla(51, 95%, 93%, 1);     */
-    text-align: center;  
-    
+    display: flexbox;
+    text-align: center;
 }
+
 #header1 {
     font-size: 2.8rem;
     color: hsl(195, 52%, 62%);
@@ -48,6 +50,7 @@ body {
     letter-spacing: 2rem;
     font-weight: 200;
 }
+
 #header2 {
     font-size: 1rem;
     color: hsl(38, 56%, 81%);
@@ -55,46 +58,59 @@ body {
     font-weight: 100;
     letter-spacing: 0.2rem;
 }
+
 main {
     color: hsl(38, 56%, 81%);
+    display: flexbox;
 }
-canvas {    
+
+canvas {
     display: block;
     margin: 0.5rem auto;
     border: 2px hsl(38, 56%, 81%) solid;
 }
+
 ul {
-    align-items: center;
-    display: inline-block;
-    left: 50%;
+    display: block;
     column-count: 5;
-    width: 50%;
-    min-width: 650px;
+    width: 650px;
     font-size: 1rem;
-    list-style: none;    
+    list-style: none;
+    position: absolute;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%)
 }
+
+
 .botones {
     border-color: hsl(195, 52%, 62%);
 }
+
 ul li #btnPausar {
     opacity: 1;
     width: 6.5rem;
     font-size: 1.2rem;
-    display: inline-block;
     background-color: inherit;
     color: inherit;
-    border:  2px  solid;
+    border: 2px solid;
     border-color: inherit;
 }
-#btnPausar:active{
+
+li {
+    list-style: none;
+}
+
+#btnPausar:active {
     background-color: inherit;
     color: inherit;
-    border:  2px  solid;
+    border: 2px solid;
     border-color: inherit;
 }
-#btnPausar:hover{
+
+#btnPausar:hover {
     color: hsl(195, 52%, 62%);
-    border:  2px  solid;
+    border: 2px solid;
     border-color: inherit;
 }
 
@@ -103,21 +119,22 @@ ul li #btnNave {
     width: 4rem;
     margin-top: 0.4rem;
     font-size: 1.2rem;
-    display: inline-block;
     background-color: inherit;
     color: inherit;
-    border:  2px  solid;
+    border: 2px solid;
     border-color: inherit;
 }
-#btnNave:active{
+
+#btnNave:active {
     background-color: inherit;
     color: inherit;
-    border:  2px  solid;
+    border: 2px solid;
     border-color: inherit;
 }
-#btnNave:hover{
+
+#btnNave:hover {
     color: hsl(195, 52%, 62%);
-    border:  2px  solid;
+    border: 2px solid;
     border-color: inherit;
 }
 
@@ -128,30 +145,33 @@ ul li #btnNave {
     margin-top: 0.4rem;
     font-size: 0.8rem;
     display: block;
-    position:absolute;
+    position: absolute;
     top: 0px;
     right: 0px;
     background-color: inherit;
     color: inherit;
-    border:  2px solid;
+    border: 2px solid;
     border-color: inherit;
 }
-#btnModoClaro:active{
+
+#btnModoClaro:active {
     background-color: inherit;
     color: inherit;
-    border:  2px  solid;
+    border: 2px solid;
     border-color: inherit;
 }
-#btnModoClaro:hover{
+
+#btnModoClaro:hover {
     color: hsl(195, 52%, 62%);
-    border:  2px  solid;
+    border: 2px solid;
     border-color: inherit;
 }
+
 .comando {
-    opacity: 0.9;   
-    display:inline-flex;
+    opacity: 0.9;
+    display: inline-flex;
     padding-left: 0.5rem;
     padding-right: 0.5rem;
-    border: 2px  solid;
+    border: 2px solid;
     border-color: hsl(38, 56%, 81%);
 }
